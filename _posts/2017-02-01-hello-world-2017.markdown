@@ -1,16 +1,16 @@
 ---
 layout:     post
-title:      "Hello world, 2017"
+title:      "Hello world, 2020"
 subtitle:   "欢迎使用"
-date:       2017-02-01 12:00:00
-author:     "Xiaosheng"
+date:       2020-12-10 13:55:00
+author:     "Ruer"
 header-img: "img/bg/hello_world.jpg"
 catalog: true
 tags:
     - 说明
 ---
 
-这是 xs-huxblog 博客模板的一篇示例文档，使用 Markdown 语法编写。
+这是 ruerblog 博客模板的一篇示例文档，使用 Markdown 语法编写。
 
 Markdown 是一种非常简单的排版语法，几分钟就能够基本掌握。使用 Markdown 语法来编写博客将是一件非常惬意的事，你从此不需要为了各种各样的排版效果而浪费精力，而是将注意力集中在编写内容本身。
 

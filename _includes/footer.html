@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
-                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    <!-- add Weibo, Zhihu by Ruer, add target = "_blank" to <a> by Ruer -->
                     {% if site.zhihu_username %}
                     <li>
                         <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
@@ -39,11 +39,11 @@
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                    Powered by <a href="https://github.com/jsksxs360/xs-huxblog">Xs-Hux Blog</a> |
+                    Powered by <a href="https://ruersun.github.io/blog">Ruer Blog</a> |
                     <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
                         frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=jsksxs360&repo=xs-huxblog&type=star&count=true" >
+                        src="https://ghbtns.com/github-btn.html?user=RuerSun&repo=ruerblog&type=star&count=true" >
                     </iframe>
                 </p>
             </div>
@@ -66,7 +66,7 @@
 <script src='{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}'></script>
 
 <!-- Custom Theme JavaScript -->
-<script src='{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}'></script>
+<script src='{{ "/js/ruer.min.js " | prepend: site.baseurl }}'></script>
 
 <!-- async load function -->
 <script>
@@ -131,7 +131,7 @@
 <!-- Baidu Tongji -->
 {% if site.ba_track_id %}
 <script>
-    // dynamic User by Hux
+    // dynamic User by Ruer
     var _baId = '{{ site.ba_track_id }}';
 
     // Originial
@@ -172,7 +172,7 @@
 
     /*
      * Doc: https://github.com/davist11/jQuery-One-Page-Nav
-     * Fork by Hux to support padding
+     * Fork by Ruer to support padding
      */
     async("{{ '/js/jquery.nav.js' | prepend: site.baseurl }}", function () {
         $('.catalog-body').onePageNav({
