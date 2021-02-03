@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=2.0, minimum-scale=0.5 , user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>福州大学电子通行码</title>
+    <style>
+        body{text-align:center}
+    </style>
+</head>
+<body bgcolor="#FFFFFF" text-align=center>
+<div style="position: relative; width: 100%; height: auto;">
+    <img src="final3.png" width=100% height=auto />
+    <span style="position: absolute; top: 10%; left: 4.8%;color:#EAEBF1;font-size:24.5px">科技园</span>
+<span style="position: absolute; top: 31%; left: 5%;color:#EAEBF1;font-size:17.5px">学生电子通行码</span>
+    <span id="span1" style="position: absolute; top: 53.5%; left: 10.5%;color:#EAEBF1;font-size:20px"><script language="javascript">
+<!--
+age = prompt("请输入你的名字:","张三");
+if (age != null){
+alert("ok!");
+}else{
+alert("你按了[取消]按钮");
+}
+var span1 = document.getElementById("span1");
+span1.innerHTML = age;
+</script></span>
+<span id="span2" style="position: absolute; top: 73.2%; left: 10.5%;color:#EAEBF1;font-size:17.6px"><script language="javascript">
+<!--
+banji = prompt("请输入你的班级:","2019级研究生02班");
+if (banji != null){
+alert("ok!");
+}else{
+alert("你按了[取消]按钮");
+}
+var span2 = document.getElementById("span2");
+span2.innerHTML = banji;
+</script></span>
+</div> 
+<div style="width: 100%;height: auto;border-radius: 15px;background:#FFFFFF;">
+<p style="color:white;font-size:10px;">woaini</p>
+<div id="div1" style="display:inline;font-size:30px;margin:20px,auto;"></div>
+<script>
+    function time() {
+        var date = new Date();
+        var hour = date.getHours();
+        var month = date.getMonth()+1;
+        var day = date.getDate();
+        var str =  month + "月" + day + "日&nbsp;" ;
+        var div1 = document.getElementById("div1");
+        div1.style.color="#E5311A";
+        div1.innerHTML = str;
+    }
+    setInterval(time,1000);
+</script>
+<div id="div2" style="width: 300px;height: 56px;border-radius: 28px;border: 1px solid #F0F0F0;font-size:30px;display:inline;"></div>
+<script>
+    function time() {
+        var date = new Date();
+        var hour = date.getHours().toString();
+        var minutes = date.getMinutes().toString();
+        var seconds = date.getSeconds();
+        function timeAdd0(str) {
+            if(str.length<=1){
+                str='0'+str;
+            }
+        return str
+        }
+        var str2 = "&nbsp;&nbsp;&nbsp;"+timeAdd0(hour) + ":" + timeAdd0(minutes)+"&nbsp;&nbsp;&nbsp;" ;
+        var div2 = document.getElementById("div2");
+        div2.innerHTML = str2;
+    }
+    setInterval(time,1000);
+</script>
+<div id="div3" style="font-size:50px;font-weight: bold;"></div>
+<script>
+    function time() {
+        var date = new Date();
+        var hour = date.getHours();
+        var minutes = date.getMinutes();
+        var seconds = date.getSeconds();
+        var str3 = seconds ;
+        var div3= document.getElementById("div3");
+        div3.style.color="#ff0000";
+        div3.innerHTML = str3;
+    }
+    setInterval(time,1000);
+</script>
+<p style="color:white;font-size:5px;">woaini</p>
+<div id="image2">
+<img src="img33.png" width=70% height=auto />
+</div> 
+<p style="color:white;font-size:5px;">woaini</p>
+<p margin=30px,30px text-align:left;>
+<img src="QQ20200926142641.jpg" width=85% height=auto/>
+</p>
+<p style="color:white;font-size:5px;">woaini</p>
+</div>
+</body>
+</html>
