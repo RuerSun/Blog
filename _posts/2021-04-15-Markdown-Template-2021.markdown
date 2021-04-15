@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Hello world, 2020"
+title:      "Markdown Template, 2021"
 subtitle:   "欢迎使用"
-date:       2020-12-10 13:55:00
+date:       2021-04-15 14:01:00
 author:     "Ruer"
 header-img: "img/bg/hello_world.jpg"
 catalog: true
@@ -10,13 +10,13 @@ tags:
     - 说明
 ---
 
-这是 ruerblog 博客模板的一篇示例文档，使用 Markdown 语法编写。
+这是 Ruer 博客模板的一篇示例文档，使用 Markdown 语法编写。
 
 Markdown 是一种非常简单的排版语法，几分钟就能够基本掌握。使用 Markdown 语法来编写博客将是一件非常惬意的事，你从此不需要为了各种各样的排版效果而浪费精力，而是将注意力集中在编写内容本身。
 
 ![1](/img/avatar-xs.jpg)
 
-我是小昇，接下来由我简单介绍一下文章支持的语法格式：
+我是Ruer，接下来由我简单介绍一下文章支持的语法格式：
 
 - 基本 Markdown 语法
 - 各种语言的代码渲染
