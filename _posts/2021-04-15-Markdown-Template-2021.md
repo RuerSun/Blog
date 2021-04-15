@@ -18,11 +18,11 @@ Markdown 是一种非常简单的排版语法，几分钟就能够基本掌握�
 
 我是Ruer，接下来由我简单介绍一下文章支持的语法格式：
 
-- 基本 Markdown 语法
-- 各种语言的代码渲染
-- LaTeX 数学公式渲染
+- [基本 Markdown 语法](#jump1)
+- [各种语言的代码渲染](#jump2)
+- [LaTeX 数学公式渲染](#jump3)
 
-## 基本 Markdown 语法
+## <span id="jump1">基本 Markdown 语法</span>
 
 > Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— [维基百科](https://zh.wikipedia.org/wiki/Markdown)
 
@@ -62,7 +62,7 @@ Markdown 是一种非常简单的排版语法，几分钟就能够基本掌握�
   - 线路1
   - 线路2
 
-##  各种语言的代码渲染
+##  <span id="jump2">各种语言的代码渲染</span>
 
 本博客使用 [highlight.js](https://highlightjs.org/) 对代码进行进行渲染，选用 Github 主题，下面为展示效果：
 
@@ -89,7 +89,7 @@ class Hello
 }
 ```
 
-## LaTeX 数学公式渲染
+## <span id="jump3">LaTeX 数学公式渲染</span>
 
 本博客使用 [MathJax](https://www.mathjax.org/) 对 LaTex 格式的数学公式进行渲染，下面为展示效果：
 
