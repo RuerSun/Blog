@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      "多进程、多线程、Socket编程, 2021"
+subtitle:   "文档提交测试"
+date:       2021-04-15 14:01:00
+author:     "Ruer"
+header-img: "img/bg/hello_world.jpg"
+catalog: true
+tags:
+    - 测试说明
+---
+
 # 一、多进程
 ## 1.Linux
 ### （1）fork示例代码
