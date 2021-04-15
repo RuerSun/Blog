@@ -9,9 +9,9 @@ url: "https://ruersun.github.io/blog"              # your host, for absolute URL
 baseurl: ""                                        # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
-douban_username: unknown
-weibo_username: unknown
-zhihu_username: unknown
+douban_username: ---
+weibo_username: ---
+zhihu_username: ---
 github_username: RuerSun
 
 # Build settings
