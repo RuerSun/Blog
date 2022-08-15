@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "油猴脚本开发指南(四)-grant-介绍-none与unsafeWindow, 2021"
+title:      "油猴脚本开发指南(四) grant 介绍 none 与 unsafeWindow, 2021"
 subtitle:   "欢迎使用"
 date:       2021-12-06 12:31:20
 author:     "Ruer"
@@ -19,7 +19,9 @@ tags:
 这个属性可用来申请 GM_* 函数和 unsafeWindow 权限.相当于放在脚本 header 里面告诉油猴扩展,你需要用些什么东西,然后它就会给你相应的权限.
 
 更加详细的列表:
+
 tampermonkey [文档地址](https://www.tampermonkey.net/documentation.php#_grant)
+
 tampermonkey 可申请 api [文档地址](https://www.tampermonkey.net/documentation.php#api)
 
 ## none 和 unsafeWindow
